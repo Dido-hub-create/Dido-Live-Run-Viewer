@@ -1,0 +1,13 @@
+{
+  "name": "dido-live-run-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/web.test.mjs",
+    "test:browser": "node --test tests/browser.test.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "leaflet": "1.9.4"
+  }
+}
